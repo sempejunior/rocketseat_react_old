@@ -22,7 +22,6 @@ export function TransactionsTable(){
             </tr>
           </thead>
         <tbody>
-          
             <tr>
                 <td>Desenvolvimento de Site</td>
                 <td className="deposit">R$12.000,00</td>
