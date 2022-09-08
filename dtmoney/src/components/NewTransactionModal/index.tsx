@@ -14,6 +14,9 @@ export function NewTransactionModal({
     <Modal
       isOpen={isOpen}
       onRequestClose={onRequestClose}
+      //overlayClassName is used to clear all styles on modal
+      overlayClassName="react-modal-overlay"
+      className="react-modal-content"
     >
       <Container>
         <h2>Cadastrar Transação</h2>
