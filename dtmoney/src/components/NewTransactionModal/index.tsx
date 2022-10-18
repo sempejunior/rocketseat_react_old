@@ -42,6 +42,7 @@ const [type, setType] = useState('deposit');
             type="button"
             onClick={()=> {setType('deposit')}}
             isActive= {type==='deposit'}
+            activeColor = "green"
           >
             <img src = {incomeImg} alt="Entrada"/>
             <span>Entrada</span>
@@ -51,6 +52,7 @@ const [type, setType] = useState('deposit');
             type="button"
             onClick={()=> {setType('withDraw')}}
             isActive= {type==='withDraw'}
+            activeColor = "red"
           >
             <img src = {outcomeImg} alt="Saida"/>
             <span>Saída</span>
